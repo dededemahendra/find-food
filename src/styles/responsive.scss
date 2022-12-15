@@ -1,0 +1,75 @@
+@media (min-width: 600px) {
+  #restaurant-list,
+  #testimonial-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  nav {
+    .hamburger {
+      display: none;
+    }
+
+    .drawer {
+      position: initial;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3.5px 0;
+      transform: translateX(0);
+    }
+  }
+
+  .header {
+    padding: 8px 20px 12px 20px;
+  }
+
+  .info {
+    padding: 0 20px;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .detail {
+    .title {
+      padding-left: 20px;
+    }
+  }
+
+  .description {
+    padding: 0 20px;
+  }
+
+  hr {
+    margin: 20px;
+  }
+
+  .categories {
+    flex-direction: row;
+    margin: 0 20px 12px 20px;
+  }
+
+  .foods-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 20px;
+  }
+
+  .reviews {
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .jumbotron {
+    background-image: url('../public/jumbotron-dekstop.webp');
+  }
+  #restaurant-list,
+  #testimonial-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    width: 100%;
+  }
+}

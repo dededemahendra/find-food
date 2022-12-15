@@ -1,0 +1,32 @@
+{
+  "testimonials": [
+    {
+      "name": "Juliet Wright",
+      "location": "London, UK",
+      "rating": 4,
+      "text": "We have been using product for last one year, and I have to say that it has transformed the way we do business. Thank you for awesome service.",
+      "picture": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "name": "Lance Jarvis",
+      "location": "Sweden",
+      "rating": 4.2,
+      "text": "It has changed the way I used the website. Product lets you create anything you envision and it does it so easy and flawless. I can't imagine not working with the service",
+      "picture": "https://testimonialapi.toolcarton.com/avatar/4.jpg"
+    },
+    {
+      "name": "Michael D.",
+      "location": "Austin, Texas",
+      "rating": 3.5,
+      "text": "I give my honest review when it comes to food and this app give me some of the best recommendation",
+      "picture": "https://testimonialapi.toolcarton.com/avatar/3.jpg"
+    },
+    {
+      "name": "Jessica June",
+      "location": "Indonesia",
+      "rating": 4.5,
+      "text": "I give my honest review when it comes to food and this app give me some of the best recommendation",
+      "picture": "https://randomuser.me/api/portraits/women/17.jpg"
+    }
+  ]
+}
